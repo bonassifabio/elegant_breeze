@@ -1,6 +1,6 @@
 Install step
 ==============
-1. Download a copy of the current master tree.
+1. Download a copy of the current master tree. (Or download a version tag from Releases page)
 
 2. Unpack it. For conviniente, i will call the directory in which you unpack it $DIR. (e.g. $DIR=~/Desktop/ElegantBreeze
 
@@ -8,7 +8,7 @@ Install step
 
 4. Install the **QtCurve Style**. From bash: `cp ${DIR}/Other/QtCurve_theme/ElegantBreeze.qtcurve ~/.kde4/share/apps/QtCurve/` (You may have to create QtCurve directory). Then, chose ElegantBreeze from QtCurve styles.
 
-5. Install the **Icons pack**. From bash: `cp -r ${DIR}/Other/Icons/plasma-next-icons ~/.kde4/share/icons/plasma-next-icons`. Then, choose Plasma Next from Icons menu (in System Settings)
+5. Install the **Icons pack**. From bash: `cp -r ${DIR}/Other/Icons/plasma-next-icons ~/.kde4/share/icons/plasma-next-icons`. Then, choose Plasma Next from Icons menu (in System Settings) (you can also install **flattr-icon** in the same way, it's up to you)
 
 6. Install the **Colorscheme**. From bash: `cp ${DIR}/Other/Colorscheme/ElegantBreeze.colorscheme ~/.kde4/share/apps/color-schemes/`. Then, choose ElegantBreeze from Colors menu (in System Settings)
 
@@ -25,9 +25,21 @@ If you have a patch/improovement, please make a pull request.
 Credits
 ------
 * KDE Team for the Breeze Cursor and for the Min/Max/Close icons.
-* Evolvere's autor for his awsome work
+* Evolvere's autor for his awesome work
+* Flattr icons creator. Give a look to his work! :D
 * The guys who created the QtCurve style, the ColorScheme and the Icons pack. I didn't find your nicknames, guys!
 
 Screenshots
 ==============
 ![Screenshot1](/Screenshot1.png)
+
+Changelog
+==============
+
+v 1.0
+------
+* First commit
+
+v 1.0.1
+------
+* Added Flattr-icons
