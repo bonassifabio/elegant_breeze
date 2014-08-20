@@ -2,7 +2,7 @@ Install step
 ==============
 1. Download a copy of the current master tree. (Or download a version tag from Releases page)
 
-2. Unpack it. For conviniente, i will call the directory in which you unpack it $DIR. (e.g. $DIR=~/Desktop/ElegantBreeze
+2. Unpack it. For conviniente, i will call the directory in which you unpack it $DIR. (e.g. `$DIR=~/Desktop/ElegantBreeze`)
 
 3. Install the **Aurora Theme**. To do so, from bash: `cp -r ${DIR}/Aurora_theme/ElegantBreeze ~/.kde4/share/apps/aurorae/themes/ElegantBreeze` (you may have to create aurorae and themes folders).
 
