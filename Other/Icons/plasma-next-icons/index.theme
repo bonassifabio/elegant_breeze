@@ -1,0 +1,110 @@
+[Icon Theme]
+Name=Breeze
+Comment=The Plasma 5 icon theme
+Inherits=
+
+Directories=actions/toolbar,actions/toolbar-small,actions/categories,apps/preferences,apps/software,apps/software-small,apps/toolbar,apps/emotes,apps/categories,apps/actions,apps/devices,categories/start-menu,categories/start-menu-small,devices/hardware,devices/sidebars,mimetypes/file-types,mimetypes/file-types-small,places/user-folders,places/user-folders-small
+
+[actions/toolbar]			#22x22 - Fixed size - For toolbar icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=22
+Context=Actions
+Type=Fixed
+
+[actions/toolbar-small]			#16x16 - Fixed size - For use in sidebar(s) smaller toolbar(s) >!!!ONLY!!!<: e.g. Kate movable sidebar/toolbar (search and replace, current project, etc.) or Juk tree view - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=16
+Context=Actions
+Type=Fixed
+
+[actions/categories]			#16x16 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. Dolphin Configure toolbar button -  WRONG_ICON_USAGE_BY_APP - Monochrome
+Size=16
+Context=Categories
+Type=Fixed
+
+[apps/software]				#64x64 - Scalable - For application icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 128x128, 256x256 and 32x32 (not recommended) - DO_NOT_USE_ANYWHERE_ELSE - Color
+Size=64
+Context=Applications
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+[apps/preferences]			#32x32 - Fixed size - For System Settings icons >!!!ONLY!!!< - Scalable to the following sizes: 32x32 (default), 64x64, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+Size=32
+Context=Applications
+Type=Fixed
+
+[apps/software-small]			#22x22 - Fixed size - Application icon(s) for task manager - OPTIONAL + DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=22
+Context=Applications
+Type=Fixed
+
+[apps/toolbar]				#22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. Dolphin Open Terminal/About Dolphin/About KDE buttons - WRONG_ICON_USAGE_BY_APP - Monochrome
+Size=22
+Context=Applications
+Type=Fixed
+
+[apps/emotes]				#32x32 - Fixed size - Icon(s) belonging to System Settings - WRONG_ICON_USAGE_BY_APP - Color
+Size=32
+Context=Emotes
+Type=Fixed
+
+[apps/categories]			#32x32 - Fixed size - Icon(s) belonging to System Settings - WRONG_ICON_USAGE_BY_APP - Color
+Size=32
+Context=Categories
+Type=Fixed
+
+[apps/actions]				#32x32 - Fixed size - Icon(s) belonging to System Settings - WRONG_ICON_USAGE_BY_APP - Color
+Size=32
+Context=Actions
+Type=Fixed
+
+[apps/devices]				#32x32 - Fixed size - Icon(s) belonging to System Settings - WRONG_ICON_USAGE_BY_APP - Color
+Size=32
+Context=Actions
+Type=Fixed
+
+[categories/start-menu]			#32x32 - Fixed size - For categories icons >!!!ONLY!!!<  - Used in Kickoff (KDE 4.x.x) and Lancelot. Also used in MATE and Cinnamon (just FYI) - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=32
+Context=Categories
+Type=Fixed
+
+[categories/start-menu-small]		#16x16 - Fixed size - NOT_IN_USE - Monochrome
+Size=16
+Context=Categories
+Type=Fixed
+
+[devices/hardware]			#64x64 - Scalable - For device icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+Size=64
+Context=Devices
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+[devices/sidebars]			#16x16 - Fixed size - For small device icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=16
+Context=Devices
+Type=Fixed
+
+[mimetypes/file-types]			#64x64 - Scalable - For file type icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+Size=64
+Context=MimeTypes
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+[mimetypes/file-types-small]		#16x16 - Fixed size - For small file type icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=16
+Context=MimeTypes
+Type=Fixed
+
+[places/user-folders]			#64x64 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+Size=64
+Context=Places
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+[places/user-folders-small]		#16x16 - Fixed size - For small folder icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+Size=16
+Context=Places
+Type=Scalable
+Type=Fixed
