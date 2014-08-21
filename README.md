@@ -61,7 +61,7 @@ v 1.0.1
 ------
 * Added Flattr-icons
 
-v 1.0.1
+v 1.1
 ------
 * Thinner title bar
 * Tinner border
