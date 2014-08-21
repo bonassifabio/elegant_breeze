@@ -1,9 +1,6 @@
 [ActiveShadows]
-Color=75,75,75
-ColorType=5
-HOffset=10
-Size=29
-VOffset=20
+ColorType=3
+VOffset=15
 
 [KWin]
 BorderSize=3
@@ -62,7 +59,7 @@ fadeLines=false
 fillProgress=true
 fillSlider=true
 flatSbarButtons=true
-focus=line
+focus=standard
 forceAlternateLvCols=false
 gbFactor=0
 gbLabel=9
@@ -163,7 +160,7 @@ unifySpinBtns=false
 useHighlightForMenu=true
 useQtFileDialogApps=googleearth-bin
 vArrows=false
-version=1.8.14
+version=1.8.18
 windowBorder=41
 windowDrag=3
 xCheck=false

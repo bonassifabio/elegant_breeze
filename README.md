@@ -1,14 +1,29 @@
+Dependencies
+==============
+* qtcurve
+* KDE 4.13 or higher (not tested for previous versions)
+
 Install step
 ==============
+### Using Script
+1. Download a copy of the current master
+2. Unpack it
+3. Execute the 'install' bash script
+4. Open System Settings and choose the new theme both in Workspace Appearance and in Application Appearance
+5. Enjoy :)
+
+The script may not find your KDE directory. If so, you have to install the theme manually.
+
+### Manually
 1. Download a copy of the current master tree. (Or download a version tag from Releases page)
 
 2. Unpack it. For conviniente, i will call the directory in which you unpack it $DIR. (e.g. `$DIR=~/Desktop/ElegantBreeze`)
 
-3. Install the **Aurora Theme**. To do so, from bash: `cp -r ${DIR}/Aurora_theme/ElegantBreeze ~/.kde4/share/apps/aurorae/themes/ElegantBreeze` (you may have to create aurorae and themes folders).
+3. Install the **Aurora Theme**. To do so, from bash: `cp -r ${DIR}/Aurorae_theme/ElegantBreeze ~/.kde4/share/apps/aurorae/themes/ElegantBreeze` (you may have to create aurorae and themes folders).
 
 4. Install the **QtCurve Style**. From bash: `cp ${DIR}/Other/QtCurve_theme/ElegantBreeze.qtcurve ~/.kde4/share/apps/QtCurve/` (You may have to create QtCurve directory). Then, chose ElegantBreeze from QtCurve styles.
 
-5. Install the **Icons pack**. From bash: `cp -r ${DIR}/Other/Icons/plasma-next-icons ~/.kde4/share/icons/plasma-next-icons`. Then, choose Plasma Next from Icons menu (in System Settings) (you can also install **flattr-icon** in the same way, it's up to you)
+5. Install the **Icons pack**. From bash: `cp -r ${DIR}/Other/Icons/flattr-icons-kde ~/.kde4/share/icons/flattr-icons-kde`. Then, choose Plasma Next from Icons menu (in System Settings) (you can also install **plasma-next-icons** in the same way, it's up to you)
 
 6. Install the **Colorscheme**. From bash: `cp ${DIR}/Other/Colorscheme/ElegantBreeze.colorscheme ~/.kde4/share/apps/color-schemes/`. Then, choose ElegantBreeze from Colors menu (in System Settings)
 
@@ -16,6 +31,8 @@ Install step
 
 8. Install the **Cursor Theme**. From bash: `cp -r ${DIR}/Other/MouseCursor_theme/Breeze ~/.icons/Breeze`
 
+
+Please, notice that your ~/.kde4 folder could be ~/.kde instead, depending on your Distro.
 
 About this theme
 ==============
@@ -43,3 +60,12 @@ v 1.0
 v 1.0.1
 ------
 * Added Flattr-icons
+
+v 1.0.1
+------
+* Thinner title bar
+* Tinner border
+* Fixed some bugs
+* Changed the focus rectangle to dotted
+* flattr icons are now default
+* Added an install bash script for a simple installation

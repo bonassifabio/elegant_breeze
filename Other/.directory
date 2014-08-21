@@ -1,5 +1,7 @@
 [Dolphin]
-Timestamp=2014,8,20,19,39,54
+PreviewsShown=true
+SortOrder=1
+Timestamp=2014,8,21,13,41,55
 Version=3
 ViewMode=1
 VisibleRoles=Details_text,Details_size,Details_date,Details_type,Details_imageSize,CustomizedDetails

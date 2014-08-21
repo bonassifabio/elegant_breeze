@@ -1,0 +1,77 @@
+#!/bin/bash
+
+DIR=~/.kde4
+THEMEDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+CUID=$(id -u)
+ERROR=0
+
+if [ $CUID -eq 0 ]; then
+	echo "Can't install the theme as root. Exiting.."
+	return 1;
+fi
+
+if [ -d ~/.kde4 -a -d ~/.kde4/share/apps ]; then
+	DIR=~/.kde4
+elif [ -d ~/.kde -a -d ~/.kde/share/apps ]; then
+	DIR=~/.kde
+else
+	echo "Neither ~/.kde nor ~/.kde4 is your KDE folder. Please, install the theme manually"
+	r 2
+fi
+
+echo "Checking $DIR structure"
+if [ ! -d ${DIR}/share/apps/aurorae ]; then
+	mkdir ${DIR}/share/apps/aurorae
+fi
+if [ ! -d ${DIR}/share/apps/aurorae/themes ]; then
+	mkdir ${DIR}/share/apps/aurorae/themes
+fi
+if [ ! -d ${DIR}/share/apps/color-schemes ]; then
+	mkdir ${DIR}/share/apps/color-schemes
+fi
+if [ ! -d ${DIR}/share/icons ]; then
+	mkdir ${DIR}/share/icons
+fi
+if [ ! -d ~/.icons ]; then
+	mkdir ~/.icons
+fi
+if [ ! -d ${DIR}/share/apps/desktoptheme ]; then
+	mkdir ${DIR}/share/apps/desktoptheme
+fi
+if [ ! -d ${DIR}/share/apps/QtCurve ]; then
+	mkdir ${DIR}/share/apps/QtCurve
+fi
+
+echo "Installing theme.."
+cp -r ${THEMEDIR}/Aurorae_theme/ElegantBreeze ${DIR}/share/apps/aurorae/themes/ElegantBreeze
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+cp ${THEMEDIR}/Other/Colorscheme/ElegantBreeze.colors ${DIR}/share/apps/color-schemes/
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+cp -r ${THEMEDIR}/Other/Icons/* ${DIR}/share/icons/
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+cp -r ${THEMEDIR}/Other/MouseCursor_theme/Breeze ~/.icons/Breeze 
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+cp -r ${THEMEDIR}/Other/Plasma_theme/Evolvere ${DIR}/share/apps/desktoptheme/Evolvere 
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+cp ${THEMEDIR}/Other/QtCurve_theme/ElegantBreeze.qtcurve ${DIR}/share/apps/QtCurve/
+if [ $? -ne 0 ]; then
+	echo "Fatal error. Exiting...";
+	return 3;
+fi
+
+echo "Installation successfull. Enjoy the theme! :)"
