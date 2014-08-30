@@ -31,6 +31,7 @@ The script may not find your KDE directory. If so, you have to install the theme
 
 8. Install the **Cursor Theme**. From bash: `cp -r ${DIR}/Other/MouseCursor_theme/Breeze ~/.icons/Breeze`
 
+9. Install **Wallpaper** contained in ${DIR}/Other/Wallpapers folder.
 
 Please, notice that your ~/.kde4 folder could be ~/.kde instead, depending on your Distro.
 
@@ -45,6 +46,11 @@ Credits
 * Evolvere's autor for his awesome work
 * Flattr icons creator. Give a look to his work! :D
 * The guys who created the QtCurve style, the ColorScheme and the Icons pack. I didn't find your nicknames, guys!
+* The author of the wallpaper. Unfortunately, I don't remember where i found it :(
+
+License
+------
+ElegantBreeze Aurorae Theme released under GNUGPLv3 license. The other components, contained in folder 'Other' are released under their own license. For any license question/complain, please contact me through email or filling an issue here on GitHub.
 
 Screenshots
 ==============
@@ -69,3 +75,7 @@ v 1.1
 * Changed the focus rectangle to dotted
 * flattr icons are now default
 * Added an install bash script for a simple installation
+
+v 1.1.1
+------
+* Added a suggested wallpaper (manual installation)
