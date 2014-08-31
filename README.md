@@ -7,7 +7,7 @@ Installation
 ==============
 Patched QtCurve
 ------
-I've patched QtCurve to remove the shadows of popup-menus and tooltips. Yep, actually QtCurve doesn't allow to change them. I plan to add an option and submit a pull request, but it will take some time. In the meanwile, you can clone [my fork QtCurve](https://github.com/gnufabio/qtcurve) and use it instead of the packaged QtCurve. Give a look to it for more details.
+I've patched QtCurve to remove the shadows of popup-menus and tooltips. Yep, actually QtCurve doesn't allow to change them. I plan to add an option and submit a pull request, but it will take some time. In the meanwile, you can clone [my forked QtCurve](https://github.com/gnufabio/qtcurve) and use it instead of the packaged QtCurve. Give a look to it for more details.
 
 Install theme
 ------
